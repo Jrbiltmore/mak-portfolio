@@ -1,5 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
-import profileImage from "../assets/profile_img.jpg";
+import profileImage from "../assets/images/profile_img.jpg";
+import logo from "../assets/images/logo.png";
 
 const linkedin = "https://img.icons8.com/fluency/96/000000/linkedin.png";
 const github = "https://img.icons8.com/fluency/96/000000/github.png";
@@ -10,4 +11,5 @@ export default {
   linkedin,
   github,
   gmail,
+  logo,
 };

@@ -1,56 +1,59 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-
 import "./nav.css";
-import { useState } from "react";
 
 const Navbar = () => {
-  const [activeNav, setActiveNav] = useState("#");
-
   return (
-    <nav id="navbar">
-      <a
-        href="#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
-      >
-        Home
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
-      >
-        About
-      </a>
-      <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
-      >
-        Experience
-      </a>
-      <a
-        href="#resume"
-        onClick={() => setActiveNav("#resume")}
-        className={activeNav === "#resume" ? "active" : ""}
-      >
-        Resume
-      </a>
-      <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
-      >
-        Services
-      </a>
-      <a
-        href="#contact"
-        onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
-      >
-        Contact
-      </a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid nav-shadow">
+        <a className="navbar-brand" href="#">
+          <h2>MAK</h2>
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ms-auto mb-lg-0 px-5">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#about">
+                About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#resume">
+                Resume
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#services">
+                Services
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#testimonials">
+                Testimonials
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   );
 };

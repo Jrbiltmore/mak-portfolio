@@ -1,58 +1,17 @@
-nav {
-  display: block;
-  border-end-start-radius: 3rem;
-  border-end-end-radius: 3rem;
-  margin-left: auto;
-  margin-right: auto;
-  background: var(--secondary-black);
-  padding: 4px;
-  border-bottom: 2px solid var(--black-color);
-  border-left: 2px solid var(--black-color);
-  border-right: 2px solid var(--black-color);  
-  top: 0px;
-  text-align: center;
-  width: 60%;
-  position: sticky;
-  z-index: 100;
-  transition: var(--transition);
-  
+.nav-shadow {
+  box-shadow: 0 4px 2px -2px gray;
 }
 
-nav a {
-  color:var(--grey-color);
-  text-decoration:none;
-  margin: 0px 25px;
-  font-size: 1rem;
+nav ul > li {
+  padding-left: 15px;
+  padding-right: 15 px;
+  text-transform: uppercase;
 }
 
-nav a:hover {
-  color: var(--white-color);
+.navbar .navbar-nav li a {
+  color: var(--dark-grey);
 }
 
-nav a.active {
-  color: var(--white-color);
-}
-
-/* =========== MEDIA Queries (Medium devices) =========== */
-@media screen and (max-width: 1024px) {
-  nav {
-    width: 95%;
-  }
-
-  nav a {
-    margin: 0px 20px;
-    font-size: 1rem;
-  }
-}
-
-/* =========== MEDIA Queries (Small devices) =========== */
-@media screen and (max-width: 600px) {
-  nav {
-    width: 90%;
-  }
-
-  nav a {
-    margin: 0px 10px;
-    font-size: 0.8rem;
-  }
+.navbar .navbar-nav li a:hover {
+  color: var(--black-color);
 }
