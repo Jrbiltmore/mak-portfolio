@@ -128,6 +128,7 @@ a {
   cursor: pointer;
   transition: var(--transition);
   border: 2px solid var(--button2-bg);
+  text-decoration: none;
 }
 
 .btn-secondary:hover {

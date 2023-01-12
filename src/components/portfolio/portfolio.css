@@ -11,8 +11,8 @@
   border: 2px solid var(--secondary-black);
 }
 .portfolios .portfolio-item img {
-  width: 100%;
   height: 250px;
+  width: 100%;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -75,6 +75,28 @@
 .portfolio-item:hover .hover-items {
   opacity: 1;
   transform: scale(1);
+}
+
+.portfolio-details-btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--white-color);
+  font-weight: 400;
+  background: var(--button1-bg);
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: var(--transition);
+  border: 2px solid var(--white-color);
+  text-decoration: none;
+}
+
+.portfolio-details-btn:hover {
+  background: var(--white-color);
+  color: var(--button1-bg);
+  border: 2px solid var(--white-color);
+  border-radius: 0.4rem;
+  text-decoration: none;
 }
 
 .portfolio-flters {

@@ -2,7 +2,7 @@ export const data = [
   {
     id: "1",
     image:
-      "https://res.cloudinary.com/dxoifd6ol/image/upload/v1663676559/Portfolio/1_lzerwx.jpg",
+      "https://res.cloudinary.com/dxoifd6ol/image/upload/v1673519461/Portfolio/blog-api/blog-api_btomcy.jpg",
     title: "Photo FIlters",
     github: "https://github.com/majidalykhan/PhotoFilters",
     projectType: "ar",

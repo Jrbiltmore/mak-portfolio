@@ -15,19 +15,15 @@ const Resume = () => {
           <div class="resume-item">
             <h4>Bahria University Islamabad, Pakistan</h4>
             <h5>2016-2020</h5>
+            <h4>CGPA: 2.88/4.0 (70%)</h4>
             <p>
               <em>Bachelor of Science in Information Technology</em>
             </p>
-            <p>Core Computer Sciences, Electives and Institutional Courses</p>
-          </div>
-
-          <div class="resume-item">
-            <h4>Askaria College Rawalpindi, Pakistan</h4>
-            <h5>2013-2015</h5>
             <p>
-              <em>F.Sc Pre-Engineering</em>
+              Undergraduate Coursework: Algorithms/Data Structures; Databases;
+              Programming Languages; Software Architecture; Entrepreneurship;
+              Calculus; Operating Systems.
             </p>
-            <p>Mathematics, Chemisty, Physics</p>
           </div>
         </div>
 
@@ -36,9 +32,7 @@ const Resume = () => {
           <div class="resume-item">
             <h4>React Developer</h4>
             <h5>June 2021 - Present</h5>
-            <p>
-              <em>Online</em>
-            </p>
+
             <p>
               Started hands-on practice on React framework. Took 10-hour long
               course, coded along and did commits on github as the course went.
@@ -47,7 +41,7 @@ const Resume = () => {
             </p>
           </div>
           <div class="resume-item">
-            <h4>Mobile AR Developer</h4>
+            <h4>Mobile Developer</h4>
             <h5>Aug 2020 - Present</h5>
             <p>
               <em>Fiverr</em>
@@ -57,73 +51,6 @@ const Resume = () => {
               architecture of suite of apps. Worked as an android developer by
               integrating APIs like Google AR Core and Firebase.
             </p>
-          </div>
-
-          <div class="resume-item">
-            <h4>Portfolio Website</h4>
-            <h5>Sep 2022 - Nov 2022</h5>
-            <p>
-              <em>Project</em>
-            </p>
-            <p>
-              Personal website project using React JS. Implementation of learned
-              concepts which are Components, Props and useState.
-            </p>
-            <a
-              className="git-link"
-              href="https://github.com/majidalykhan/mak-portfolio"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-          </div>
-
-          <div class="resume-item">
-            <h4>React Course</h4>
-            <h5>Aug 2022</h5>
-            <p>
-              <em>Course</em>
-            </p>
-            <p>
-              Learned the basics, fundamentals, hooks, context API, react
-              router, custom hooks and more in this comprehensive course.
-            </p>
-            <a
-              className="git-link"
-              href="https://github.com/majidalykhan/react-course"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-          </div>
-
-          <div class="resume-item">
-            <h4>PhotoFilters</h4>
-            <h5>2019-2020</h5>
-            <p>
-              <em>Project</em>
-            </p>
-            <p>
-              This is an Android application called PhotoFilters which include
-              two types of photo filters i.e. Augmented faces and Artistic Style
-              Transfer. Augmented Reality Face Filters are developed using
-              Google AR Core. I have designed about 22 custom filters which
-              include Glasses, Hats, Mustache and Beard etc and integrated them
-              in my application. Whereas Artistic style transfer help you create
-              exciting image with style you like. It need two input images i.e.
-              one representing the artistic style and one representing the
-              content.
-            </p>
-            <a
-              className="git-link"
-              href="https://github.com/majidalykhan/PhotoFilters"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
           </div>
 
           <div class="resume-item">

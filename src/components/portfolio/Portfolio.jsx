@@ -2,22 +2,9 @@ import React, { useState } from "react";
 import "./portfolio.css";
 
 import { data } from "./portfolioData";
-import { AiFillGithub } from "react-icons/ai";
 
 const Portfolio = () => {
   const [projectType, setProjecType] = useState("");
-  // const [modalIsOpen, setModalIsOpen] = useState(false);
-  // const [selectedProject, setSelectedProject] = useState(null);
-
-  // const expandModal = (item) => {
-  //   setSelectedProject(item);
-  //   setModalIsOpen(true);
-  // };
-
-  // const closeModal = () => {
-  //   setSelectedProject(null);
-  //   setModalIsOpen(false);
-  // };
 
   return (
     <section id="portfolio">
@@ -45,24 +32,15 @@ const Portfolio = () => {
             return (
               <div key={item.id}>
                 <div class="portfolio-item">
-                  <div class="image">
+                  <div class="imageee">
                     <img src={item.image} alt=""></img>
                   </div>
                   <div class="hover-items">
                     <h3>{item.title}</h3>
                     <div class="icons">
-                      <a
-                        href={item.github}
-                        class="icon"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <AiFillGithub className="social-icon" />
+                      <a href={item.github} className="portfolio-details-btn">
+                        Github
                       </a>
-                      {/* To Add details button later */}
-                      {/* <a class="icon" onClick={() => expandModal(item)}>
-                        <CgDetailsMore className="social-icon" />
-                      </a> */}
                     </div>
                   </div>
                 </div>

@@ -100,11 +100,12 @@ header {
 
 .header__socials a {
   margin: 1rem;
- }
+  text-decoration: none;
+}
 
 .header__socials span {
- font-size: 1.2rem;
- color: var(--secondary-black);
+  font-size: 1.2rem;
+  color: var(--secondary-black);
 }
 
 .header_socials-img {
@@ -114,7 +115,6 @@ header {
 .header__socials a:hover {
   color: var(--secondary-black);
 }
-
 
 /* =========== Profile image =========== */
 
